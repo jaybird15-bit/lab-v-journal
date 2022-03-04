@@ -1,0 +1,45 @@
+.pageHeader {
+  background-color: #a8f0f0;
+  text-align: right;
+}
+.purpleBorder {
+  border: 5px purple solid;
+}
+.spacer {
+  clear: both;
+}
+
+.subHeader {
+  font-size: 14pt;
+}
+
+.greenBorder {
+  border: 5px green solid;
+}
+
+.journal {
+  border: 10px solid white;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.journalEntry {
+  border: 4px solid #c2e9e9;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #e8fbfb;
+}
+
+.dateEntry {
+  border-bottom: 2px dashed turquoise;
+}
+
+/* All <img> tags inside the .journal */
+.journal img {
+  float: right;
+}
+
+body {
+  background-image: url(background.gif);
+}
